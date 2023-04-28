@@ -96,3 +96,32 @@ This will clean out the old executable file and compile a new one. Once you have
 Now the GUI should open up, and you are free to click on wall locations to toggle whether or not a wall is present there.
 
 To save your work, press "s" on your keyboard.
+```bash
+ .
+├──  Editor
+│  ├──  editor
+│  ├──  main.c
+│  ├──  Makefile
+│  ├──  maze.c
+│  └──  maze.h
+├──  LICENSE
+├──  Mazes
+│  ├──  aamc_2015.txt
+│  ├──  all_japan_2017.txt
+│  ├──  apec_2016.txt
+│  ├──  default.txt
+│  ├──  minos_2012.txt
+│  └──  README.md
+├──  README.md
+└──  Simulator
+   ├──  main.c
+   ├──  Makefile
+   ├──  maze.c
+   ├──  maze.h
+   ├──  mouse.c
+   ├──  mouse.h
+   ├──  mouse.png
+   ├──  simulation
+   ├──  solver.c
+   └──  solver.h
+```
